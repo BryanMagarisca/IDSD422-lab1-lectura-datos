@@ -50,4 +50,5 @@ Rscript scripts/inspeccion.R
 
 El informe técnico para gerencia está en `informe.md`. Los criterios con los que se evalúa la práctica están en `EVALUACION.md`.
 
-*Laboratorio 1, IDSD422, Estadística y Programación para Ciencia de Datos I, 2026-B.*
+[IDSD422-practica1-magariscagomez.pdf](https://github.com/user-attachments/files/33718910/IDSD422-practica1-magariscagomez.pdf)
+
