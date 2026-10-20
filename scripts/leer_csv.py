@@ -9,8 +9,12 @@
 import pandas as pd
 
 ventas = pd.read_csv("data/ventas.csv")
+
+#imprime las primeras filas de ventas
 print (ventas.head())
 
 #imprimir las dimensiones
 print(ventas.shape)
+
+#imprimri tipos de datos
 print (ventas.dtypes)
