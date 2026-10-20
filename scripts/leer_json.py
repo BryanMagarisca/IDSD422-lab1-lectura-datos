@@ -14,10 +14,16 @@ import pandas as pd
 with open("data/ventas.json", encoding="utf-8") as f:
   datos = json.load(f)
 
+#Normaliza los datos
 ventas = pd.json_normalize(datos)
+
+#imprimir las primas filas de ventas
 print (ventas.head())
+
 #imprimir las dimensiones
 print(ventas.shape)
+
 #imprimir los tipos de columna
 print ("\nTipos por columna")
 print (ventas.dtypes)
+
