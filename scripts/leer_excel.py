@@ -8,6 +8,12 @@
 
 import pandas as pd
 ventas = pd.read_excel("data/ventas.xlsx", sheet_name = "ventas")
+
+#imprime las primeras filas de ventas
 print (ventas.head())
+
+#imprimir las dimensiones
 print(ventas.shape)
+
+#imprimri tipos de datos
 print (ventas.dtypes)
